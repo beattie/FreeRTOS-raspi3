@@ -28,6 +28,7 @@ hello world
 ## Using gdb with QEMU
 Using the Webpage [QEMU GDB usage](https://qemu-project.gitlab.io/qemu/system/gdb.html):
 ~~~
+make rungdb
 aarch64-none-gdb kernel8.elf
 ~~~
 
