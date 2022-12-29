@@ -7,7 +7,7 @@ I test with QEMU 6.1.0
 # How to Build
 
 * install aarch64 toolchain.
-  * Using ubuntu 22.04 I found that aarch-none-elf-gdb had trouble with Python so I downloaded [gdb](https://ftp.gnu.org/gnu/gdb/gdb-12.1.tar.xz) source and i gdb-12.1 ran:
+  * Using ubuntu 22.04 I found that aarch-none-elf-gdb had trouble with Python so I downloaded [gdb](https://ftp.gnu.org/gnu/gdb/gdb-12.1.tar.xz) source and in gdb-12.1 ran:
     ~~~
     ./configure --target=aarch64-none-elf --prefix=/opt/aarch64-gdb
     make all
