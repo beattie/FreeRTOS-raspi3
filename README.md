@@ -25,6 +25,12 @@ hello world
 0000000000000001
 00000000000001F6
 ```
+## Using gdb with QEMU
+Using the Webpage [QEMU GDB usage](https://qemu-project.gitlab.io/qemu/system/gdb.html):
+~~~
+aarch64-none-gdb kernel8.elf
+~~~
+
 
 This port based on Xilinx Cortex-A53 port.
 
