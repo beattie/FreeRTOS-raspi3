@@ -2,7 +2,7 @@ FreeRTOS ported to Raspberry Pi 3 (64bit)
 
 I have not yte test on real hardware yet.
 
-I test with QEMU 6.1.0
+I test with QEMU 6.2.0
 
 # How to Build
 
