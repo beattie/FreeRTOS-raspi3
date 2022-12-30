@@ -30,6 +30,7 @@ Using the Webpage [QEMU GDB usage](https://qemu-project.gitlab.io/qemu/system/gd
 ~~~
 make rungdb
 aarch64-none-gdb kernel8.elf
+    target remote localhost:1234
 ~~~
 
 
