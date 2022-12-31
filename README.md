@@ -29,8 +29,7 @@ hello world
 Using the Webpage [QEMU GDB usage](https://qemu-project.gitlab.io/qemu/system/gdb.html):
 ~~~
 make rungdb
-aarch64-none-gdb kernel8.elf
-    target remote localhost:1234
+aarch64-none-gdb kernel8.elf -ex "target remote localhost:1234" -ex "b main"
 ~~~
 
 
